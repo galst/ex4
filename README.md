@@ -718,3 +718,8 @@ You can find all the three submission files in the git repository.
 Our username : **galgal**
 
 We submitted three results (one for each classifier we trained)
+
+![png](results/results.png)
+
+![png](results/leaderboard.png)
+
