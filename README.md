@@ -713,6 +713,11 @@ pd.DataFrame({'Loan_ID':tf.Loan_ID,'Loan_Status':prediction_etc}).to_csv('/Users
 
 You can find all the three submission files in the git repository.
 
+AdaBoostClassifier [link](https://github.com/galst/results/AdaBoostClassifier.csv)
+ExtraTreesClassifier [link](https://github.com/galst/results/ExtraTreesClassifier.csv)
+RandomForestClassifier [link](https://github.com/galst/results/RandomForestClassifier.csv)
+
+
 ## Results
 
 Our username : **galgal**
