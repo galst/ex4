@@ -7,7 +7,7 @@ In this assignment we will explore the dataset given in the Analytics Vidhya Loa
 
 In the first phase we will explore the data, extract some meta data on it, and try to understand some relations bewtween the different attributes.
 
-Next, we will train *three* different classifiers and extract some statisitcs on their quality and accuracy. Then we will use these classifiers to try to predict the loan on the test set.
+Next, we will train **three** different classifiers and extract some statisitcs on their quality and accuracy. Then we will use these classifiers to try to predict the loan on the test set.
 
 Lastly, we will upload our results to Analytics Vidhya and present our results.
 
@@ -122,7 +122,7 @@ df.boxplot(column='ApplicantIncome')
 ![png](output_10_1.png)
 
 
-This confirms the presence of a lot of outliers/extreme values. This can be attributed to the income disparity in the society. Part of this can be driven by the fact that we are looking at people with different Marriage situation. Let us segregate them by Marriage:
+This confirms the presence of a lot of outliers/extreme values. This can be attributed to the income disparity in the society. Part of this can be driven by the fact that we are looking at people with different **Marriage** situation. Let us segregate them by Marriage:
 
 
 ```python
@@ -140,7 +140,7 @@ df.boxplot(column='ApplicantIncome', by = 'Married')
 ![png](output_12_1.png)
 
 
-Lets try to see how the property area attribute effects the Loan Amount given:
+Lets try to see how the **property area** attribute effects the Loan Amount given:
 
 
 ```python
